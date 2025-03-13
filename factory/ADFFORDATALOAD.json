@@ -1,5 +1,11 @@
 {
 	"name": "ADFFORDATALOAD",
+	"properties": {
+		"globalConfigurations": {
+			"factoryStagingLSReferenceName": "LS_BLOB_SOURCE",
+			"factoryStagingLSType": "LinkedServiceReference"
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
