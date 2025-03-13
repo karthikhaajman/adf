@@ -1,0 +1,6 @@
+{
+	"name": "SelfHostedIRForLocalSSMS",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

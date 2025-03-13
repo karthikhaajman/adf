@@ -1,0 +1,9 @@
+{
+	"name": "ADFFORDATALOAD",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3bdc9b6-5bca-4467-bb3e-388948276d97",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "DS_LOCAL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_LOCAL_SERVER",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Transaction Online Learning"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

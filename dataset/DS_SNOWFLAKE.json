@@ -1,0 +1,17 @@
+{
+	"name": "DS_SNOWFLAKE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SNOWFLAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "raw",
+			"table": "transactions"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

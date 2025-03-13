@@ -1,0 +1,21 @@
+{
+	"name": "LS_LOCAL_SERVER",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "JM-DKT-044",
+			"database": "DB Online Learning",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "AzureAD\\KarthikhaaShreeKT",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3Y2ZhNzBlNC01YjEyLTQ2M2ItYTgyNy1iNzdkNTg0ZTJhMjQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedIRForLocalSSMS",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
