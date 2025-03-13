@@ -1,0 +1,11 @@
+{
+	"name": "LS_BLOB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"sasUri": "https://copymiddleware.blob.core.windows.net/blobcontainer?sp=r&st=2025-03-13T13:20:27Z&se=2025-03-13T21:20:27Z&spr=https&sv=2022-11-02&sr=c&sig=byRzPVVyDphK%2BHQ8iK6fQemtPgRflHyRLg7LW1fc7TI%3D?sp=r&st=2025-03-13T13:20:27Z&se=2025-03-13T21:20:27Z&spr=https&sv=2022-11-02&sr=c&sig=byRzPVVyDphK%2BHQ8iK6fQemtPgRflHyRLg7LW1fc7TI%3D"
+		}
+	}
+}
